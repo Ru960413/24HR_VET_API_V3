@@ -1,0 +1,6 @@
+Improvements: 
+- better error handling(issue: returning rather than id=0, and value is null when pass in id that doesn't exist)
+- use another flask REST framework to remake API(marshmallow or Flask-RESTX ) or use Django
+
+https://ithelp.ithome.com.tw/articles/10273719
+https://flask-restx.readthedocs.io/en/latest/quickstart.html

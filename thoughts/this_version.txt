@@ -1,0 +1,21 @@
+想法：
+1. add error handling
+    - 無法找到獸醫院（可能是獸醫院或location不存在）
+    - 無法更新獸醫院資訊（可能是無權限或是不是valid的資料）
+    - 無法增加新的獸醫院（可能是無權限或是不是valid的資料）
+    - 無效的url aka page not found <DONE>
+    ->不同的情況下要有不同的message,成功時則要顯示success
+
+    Reference:
+    https://opensource.com/article/17/3/python-flask-exceptions
+    https://medium.com/datasparq-technology/flask-api-exception-handling-with-custom-http-response-codes-c51a82a51a0f
+    https://apisyouwonthate.com/blog/useful-api-errors-for-rest-graphql-and-grpc/
+    https://ithelp.ithome.com.tw/articles/10202886
+
+2. add access token (not sure how to add it)
+    -> 一般人只能get data，需要有access token 才能更動資料
+
+    Reference:
+    https://www.geeksforgeeks.org/using-jwt-for-user-authentication-in-flask/
+    https://4geeks.com/lesson/what-is-JWT-and-how-to-implement-with-Flask
+
